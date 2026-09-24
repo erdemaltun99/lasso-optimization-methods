@@ -21,9 +21,11 @@
 
 This project studies the L1-constrained least-squares problem
 
-\[
-\min_x \|Ax-b\|_2^2 \quad \text{subject to} \quad \|x\|_1 \le \tau,
-\]
+$$
+\min_x \|Ax-b\|_2^2
+\quad \text{subject to} \quad
+\|x\|_1 \leq \tau
+$$
 
 and compares three first-order optimization strategies:
 
