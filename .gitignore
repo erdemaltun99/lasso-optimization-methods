@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded datasets
+*.bz2
+*.zip
+*.csv.bz2
+YearPredictionMSD*
+E2006*
+
+# Temporary files
+*.tmp
+*.log
